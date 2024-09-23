@@ -1,0 +1,623 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+
+/*
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Zen Dots', cursive;
+	font-family: 'Audiowide', cursive;
+*/
+
+/* Stard media query */ 
+@media(max-width: 65rem){
+
+	.intro-logo { 
+		font-size: 6vh!important;
+		text-align: center;
+ 	}
+
+
+	 .span-intro span {
+		font-size: 5vh !important;
+		text-align: center;
+	 }
+
+	 .span-intro p {
+		font-size: 2vh !important;
+		text-align: center;
+	 }
+	
+	 .span-intro-2 h2 {
+		font-size: 3vh !important;
+		text-align: center !important;
+	 }
+
+	 .span-intro-2 p {
+		font-size: 2.5vh !important;
+		width: 85% !important;
+		text-align: justify !important;
+	}
+
+	.span-intro-3 li {
+		font-size: 3vh !important;
+	}
+
+	.span-intro-3 h2 {
+		font-size: 4vh !important;
+	}
+
+	.imss{
+		width: 100vw !important;
+		height: auto !important;
+	}
+
+	.imss-text h1 { 
+	    font-size: 3vh !important;
+	 }
+
+	 .imss-text h2 {
+		font-size: 3vh !important;
+		text-align: center;
+	}
+
+	.asesorias {
+		height: auto !important;
+	}
+	.asesoria-1{
+		width: 100vw !important;
+		height: auto !important;
+	}
+
+	.asesoria-2{
+		width: 100vw !important;
+		height: auto I !important;
+	}
+
+	.isste {
+		width: 100vw !important;
+		height: auto !important;
+	}
+
+	.services {
+		width: 100vw !important;
+		height: auto !important;
+	}
+
+	.infonavit-logo {
+		height: auto !important;
+		width: 100vw !important;
+		background-size: contain !important;
+	}
+
+	.infonavit-text h2{
+		font-size: 2.5vh !important;
+	}
+	.services-text {
+		width: 100vw !important;
+		height: auto !important;
+	}
+
+}
+
+
+/* end Media Query */ 
+
+
+.red-font{
+	color: #7c0505;
+}
+
+.white-font{
+		color: #fff;
+	
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html body{
+	width: 100vw;
+	height: 100vh;
+}
+
+main{
+	color: #fff;
+	height: auto;
+	width: 100vw;
+	position: relative;
+	display: grid;
+
+}
+
+
+header{
+	background: #fff;
+	z-index: 1;
+	/*
+	position: fixed;
+	*/
+
+	position: sticky;
+	top: 1px;
+
+	height: 7vh;
+	width: 100vw;
+
+	display:flex ;
+	flex-wrap: wrap;
+}
+
+
+
+.container{
+	height:auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.intro{
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: auto;
+
+	align-items: center;
+	justify-content: center;
+
+	position:relative;
+	
+
+	font-family: 'Raleway', sans-serif;
+	font-size: 3vh;
+	
+	margin-top: -50vh;
+}
+
+.intro-1{
+	
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+	align-items: center;
+	justify-content: center;
+	position:relative;
+	background: rgba(0,0,0, .70);
+}
+
+.intro-2{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+
+	height: 100vh;
+	width: 100vw;
+	
+	
+	align-items: center;
+	justify-content: center;
+
+	position: relative;
+	background: rgba(0,0,0, 1);
+}
+
+
+.intro-3{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+
+	height: 100vh;
+	width: 100vw;
+	
+	
+	align-items: center;
+	justify-content: center;
+
+	position: relative;
+	background-color: rgba(0,0,0, .10)!Important;
+	color: #000;
+}
+
+
+
+.span-intro{
+	width: 100vw;
+	padding: 20%;
+
+	display: flex;
+	flex-wrap: wrap;
+    flex-direction: column;
+
+	justify-content: center;
+    align-items: center;
+}
+
+.span-intro span{
+	font-size: 6vh;
+}
+
+.span-intro p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 3vh;
+}
+
+.span-intro h2{
+	font-family: 'Zen Dots', cursive;
+
+
+	/*
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Zen Dots', cursive;
+	font-family: 'Audiowide', cursive;
+	*/
+}
+
+.intro-sign{
+	font-family: 'Audiowide', cursive;
+	font-size: 6vh;
+	color: #7c0505;
+	/*
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Zen Dots', cursive;
+	font-family: 'Audiowide', cursive;
+	*/
+}
+
+.span-intro-2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+	
+}
+
+.span-intro-2 h2{
+	font-family: 'Zen Dots', cursive;
+	font-size: 6vh;
+}
+
+
+.span-intro-2 p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 4vh;
+	width: 65%;
+}
+
+
+.span-intro-3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+
+	width: 100vw;
+	height: 50vh;
+
+}
+
+
+.span-intro-3 h2{
+	font-family: 'Zen Dots', cursive;
+	font-size: 6vh;
+	text-align: center;
+}
+
+.span-intro-3 ul{
+	font-family: 'Raleway', sans-serif;
+	font-size: 5vh;
+
+}
+
+.span-intro-3 li{
+	list-style:none;
+}
+
+
+.span-introLong{
+	font-size: 4vh;
+
+}
+
+
+.asesorias{
+	display: flex;
+	flex-wrap: wrap;
+	gap:2vw;
+
+	height: 100vh;
+	width:100vw ;
+
+	position: relative;
+	filter:opacity(70%);
+
+	background-image: url('/src/contacto.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	align-items: center;
+	justify-content: center;
+
+	font-family: 'Raleway', sans-serif;
+	font-size: 2vh;
+}
+
+.asesoria-1 {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+
+	margin: auto !important;
+	width: 48vw;
+	height: 100vh;
+
+	align-items: center;
+	justify-content: center;
+}
+
+.asesoria-2{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+
+	margin: auto !important;
+	width: 48vw;
+	height: 100vh;
+
+	align-items: center;
+	justify-content: center;
+}
+
+video{
+	object-fit:cover;
+	width: 100vw;
+	height:100vh;
+
+	top: 1px;
+
+	/*
+	position: relative;
+	position: fixed;
+	*/
+
+	position: sticky;
+	filter: grayscale(75%);
+}
+
+.logo{
+	font-family: 'Zen Dots', cursive;
+	font-size: 3vh;
+	color: #000;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	align-items: center;
+}
+.logo p{
+	font-size: 1.4vh;
+	color: #af0a0a;
+}
+
+.intro-logo{
+	font-size: 12vh;
+	-webkit-text-fill-color: #000; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #999999;
+}
+
+.imss{
+	height: 100vh;
+	width: 50vw;
+	background-color: rgba(0,0,0, .70);
+	border-radius: 10px 100px / 120px;
+	
+
+}
+.imss-logo{
+	background-image: url('/src/IMSS-logo1.gif') ;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: 150px;
+	width: 100%;
+	height: 20vh;
+	background-color:rgba(0, 0, 0, .90) ;
+	border-radius: 10px 100px / 120px;
+	background-size: 15vh;
+}
+
+.imss-text{
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+.imss-text h1{
+	font-family: 'Zen Dots', cursive;
+    font-size: 6vh;	
+}
+
+.imss-text h2{
+	font-family: 'Raleway', sans-serif;
+    font-size: 4vh;	
+}
+
+.imss-text ul{
+	list-style: none;
+}
+.isste{
+	width: 48vw;
+	height: 100vh;
+	background-color: rgba(0,0,0, .70);
+    border-radius: 10px 100px / 120px;
+}
+
+.isste-logo{
+	background-image: url('/src/ISSSTE-logo1.gif') ;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: 150px;
+	width: 100%;
+	height: 20vh;
+    border-radius: 10px 100px / 120px;
+	background-color:rgba(0, 0, 0, .90) ;
+	background-size: 15vh;
+
+}
+
+.isste-text{
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+}
+
+.isste-text h1{
+	font-family: 'Zen Dots', cursive;
+    font-size: 6vh;	
+}
+
+.isste-text h2{
+	font-family: 'Raleway', sans-serif;
+    font-size: 4vh;	
+}
+
+.isste-text ul{ 
+	font-family: 'Raleway', sans-serif;
+    font-size: 3vh;	
+	list-style: none;
+}
+
+
+
+.services{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column; 
+
+	height: 100vh;
+	width: 100vw;
+	justify-content: end;
+	align-items: center;
+
+	font-family: 'Raleway', sans-serif;
+	background: #000;
+}
+
+
+.services-text{
+	width: 48vw;
+	height: 100vh;
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content:space-evenly;
+	align-items: center;
+
+	background-image: url('/src/services.jpg');
+	background-position: center;
+	background-size: cover;
+	filter: opacity(70%);
+}
+
+.infonavit{
+	justify-content: center;
+	align-items: center;
+	
+	height: 100vh;
+	width: 60vw;
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.infonavit-logo{
+	height: 100vh;
+	width: 48vw;
+	
+	background-image: url('/src/infonavit-logo.png');
+	background-size:cover;
+	background-repeat: no-repeat;
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+
+	align-items: center;
+    justify-content: center;
+
+}
+
+.infonavit-text{
+	height: 25vh;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .50);
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.infonavit-text h2{
+	font-family: 'Zen Dots', cursive;
+    font-size: 5vh;	
+}
+
+
+
+
+footer{
+	background: #fff;
+	height: 10vh;
+	width: 100vw;
+	bottom: 0px;
+	position: sticky;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	
+	
+}
+
+.contacto{
+	align-items: center;
+	justify-content: center;
+	color: #000;
+	text-align: center;
+}
+
+.contacto h1{
+	font-family: 'Zen Dots', cursive;
+	font-size: 3vh;
+}
+
+.contacto h2{
+	font-family: 'Raleway', sans-serif;
+    font-size: 3vh;	
+	color: #af0a0a;
+}
+
+.contacto a{
+	color: #af0a0a;
+}
+
+.contacto a:hover{
+	color: #999999;
+}
+
+
+.red{
+	color: #af0a0a;
+}
